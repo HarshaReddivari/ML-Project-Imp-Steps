@@ -1,0 +1,23 @@
+Heroku API Key : 85b6084c-b424-4f7b-8f42-aa40cf83913a
+GitHub API key : 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
+
+deployment steps : 
+
+1.obtain required credentials and details 
+docker cred : harshareddivari , 1234567890
+github cred : harshaa89111@gmail.com , joe@89111
+heroku cred : harshaa89111@gmail.com , joe@89111
+Heroku API Key : 85b6084c-b424-4f7b-8f42-aa40cf83913a
+Heroku App Name : harsha-wafer-ml-ineuron
+
+2. GitHub
+git init
+git add . #it will add all files into staging of git
+git commit -m "first commit" # All staging fileswe are commiting in formm of same version 
+git branch -M main # we are renaming our branch from default master branch to main
+git remote add origin https://github.com/HarshaReddivari/wafer_project_ineuron.git
+git push -u origin main     # we will send all files which commited
+
+3.Dockerization :
+your application will be independent to operating system
+helps to move application easily to other system
